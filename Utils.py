@@ -52,12 +52,13 @@ def readFile():
     csvwriter.writerow(header)
     f = open("Data/wordNetNewClues.txt","r")
     while True:
-        line = f.readline()
-        print line
-        if line == None:
+        lines = f.readline()
+        print lines
+        if lines == None:
             break
-        line.split(",")
+        line = lines.split(",")
+
         vals = [line[1], line[2], line[4], line[0], line[3]]
         csvwriter.writerow(vals)
 
-#readFile()
+readFile()
