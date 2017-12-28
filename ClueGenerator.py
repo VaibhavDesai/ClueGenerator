@@ -11,3 +11,4 @@ class ClueGenerator:
             writeToCSV(ExtractFromWorkNet.ExtractFromWiki().extractFromWiki(word), word, "wiki", output_file_name)
         except:
             pass
+

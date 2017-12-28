@@ -28,8 +28,6 @@ class ExtractFromDictionaryDotCom:
                         def_set = section.find_all('div', class_='def-set')
                         section_header_bs = section.find('header', class_='luna-data-header')
 
-                        #print section_header_bs
-
                         if section_header_bs:
 
                             section_header_text = section_header_bs.find('span', class_='dbox-pg')
