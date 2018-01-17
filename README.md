@@ -1,4 +1,6 @@
-# clueGenerator
+# Clue Generator
+
+
 
 Instruction to set up the environment:
 
