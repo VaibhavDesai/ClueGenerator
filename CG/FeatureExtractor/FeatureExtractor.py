@@ -1,14 +1,14 @@
-from ContentWords import ContentWords
-from TextFeatures import TextFeatures
-from ReadabilityTest import readablility
-from ThreadPool import ThreadPool
 import csv
-import os
-from practnlptools.tools import Annotator
-
-from nltk.corpus import brown
 import time
 
+import os
+from nltk.corpus import brown
+from practnlptools.tools import Annotator
+
+from CG.Utils.ThreadPool import ThreadPool
+from ContentWords import ContentWords
+from ReadabilityTest import readablility
+from TextFeatures import TextFeatures
 
 brown_words = brown.words()
 result = []

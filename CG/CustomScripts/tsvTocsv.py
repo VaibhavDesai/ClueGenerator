@@ -10,7 +10,7 @@ csv_file = r"mycsv.csv"
 # and also stops Python converting to / from different line terminators
 # On other platforms, it has no effect
 txt_file = "../Data/new4.txt"
-csv_file = "../Data/new4.csv"
+csv_file = "../Data/new6.csv"
 in_txt = csv.reader(open(txt_file, "rb"), delimiter = '\t')
 out_csv = csv.writer(open(csv_file, 'wb'))
 

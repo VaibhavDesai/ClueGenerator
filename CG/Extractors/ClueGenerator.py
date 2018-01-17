@@ -1,6 +1,6 @@
-from Extractors import ExtractFromDictionaryDotCom, ExtractFromWorkNet, ExtractFromWiki
+from CG.CustomScripts.Utils import *
+from CG.Extractors import ExtractFromDictionaryDotCom, ExtractFromWorkNet
 
-from Utils import *
 
 class ClueGenerator:
 
