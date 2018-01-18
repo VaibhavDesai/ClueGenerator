@@ -1,1 +1,1 @@
-(S1(ADJP(JJ severe)))
+(S1(SBAR(SBAR(WHNP(WHNP(WP what)(NN kind))(PP(IN of)(NP(NN weather))))(S(VP(VBZ is)(NP(DT this))(SBAR(WHADVP(WRB when))(S(NP(EX there))(VP(VBZ 's)(NP(NN noise))))))))(CC and)))
