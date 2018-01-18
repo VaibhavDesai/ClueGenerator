@@ -71,17 +71,17 @@ class TextFeatures:
     #normalized
     def frame_count(self):
         try:
-            return len(self.annotation['srl'])/len(self.word_tokens)
+            return float(len(self.annotation['srl']))/len(self.word_tokens)
         except:
             return 0
 
     def nGram(self, n):
 
         try:
-            n_gram_score = 0
+            n_gram_score = []
             if n == 2:
                 for i in range(len(self.word_tokens)-1):
-                    n_gram_score += self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])]
+                    n_gram_score.append(self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])])
 
             '''if n == 3:
                 for i in range(len(self.word_tokens)-2):
@@ -183,7 +183,7 @@ class TextFeatures:
     def NER(self, type):
 
         entity_dic = {}
-        for sent in nltk.sent_tokenize(self.text):
+        for sent in nltk.sent_tokenize(self.text.title()):
             for chunk in nltk.ne_chunk(nltk.pos_tag(nltk.word_tokenize(sent))):
                 if hasattr(chunk, 'label'):
                     if chunk.label() not in entity_dic:

@@ -1,68 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="featureExtractor">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/CustomScripts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/Utils/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/ClueGenerator.py" afterPath="$PROJECT_DIR$/CG/Extractors/ClueGenerator.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_NE_ALL_count.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_NE_ALL_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_automated_readability_index.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_automated_readability_index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_avg_branching_factor_syntax_tree.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_avg_branching_factor_syntax_tree.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_avg_word_legth.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_avg_word_legth.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_bi_gram_score.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_bi_gram_score.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_coleman_liau_index.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_coleman_liau_index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_contentWord_functionWords.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_contentWord_functionWords.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_dale_chall_readability_score.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_dale_chall_readability_score.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_dependency_complexity.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_dependency_complexity.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_flesch_kincaid_grade.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_flesch_kincaid_grade.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_flesch_reading_ease.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_flesch_reading_ease.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_gunning_fog.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_gunning_fog.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_lexicon_count.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_lexicon_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_stopword_count.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_stopword_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_syllable_count.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_syllable_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_syntax_tree_height.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_syntax_tree_height.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/dict.com/dict.com_syntax_tree_non_terminal_node_count.png" afterPath="$PROJECT_DIR$/CG/Output/dict.com/dict.com_syntax_tree_non_terminal_node_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/automated_readability_index.png" afterPath="$PROJECT_DIR$/CG/Output/humans/automated_readability_index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/avg_word_length.png" afterPath="$PROJECT_DIR$/CG/Output/humans/avg_word_length.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/bi_gram_frequency.png" afterPath="$PROJECT_DIR$/CG/Output/humans/bi_gram_frequency.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/coleman_liau_index.png" afterPath="$PROJECT_DIR$/CG/Output/humans/coleman_liau_index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/content_function_words.png" afterPath="$PROJECT_DIR$/CG/Output/humans/content_function_words.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/dale_chall_readability_score.png" afterPath="$PROJECT_DIR$/CG/Output/humans/dale_chall_readability_score.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/dependency_complexity.png" afterPath="$PROJECT_DIR$/CG/Output/humans/dependency_complexity.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/flesch_kincaid_grade.png" afterPath="$PROJECT_DIR$/CG/Output/humans/flesch_kincaid_grade.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/flesch_reading_ease.png" afterPath="$PROJECT_DIR$/CG/Output/humans/flesch_reading_ease.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/gunning_fog.png" afterPath="$PROJECT_DIR$/CG/Output/humans/gunning_fog.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/lexicon_count.png" afterPath="$PROJECT_DIR$/CG/Output/humans/lexicon_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/stopword_count.png" afterPath="$PROJECT_DIR$/CG/Output/humans/stopword_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/syllable_count.png" afterPath="$PROJECT_DIR$/CG/Output/humans/syllable_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/syntax_tree.png" afterPath="$PROJECT_DIR$/CG/Output/humans/syntax_tree.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/humans/syntax_tree_non_terminal_nodes.png" afterPath="$PROJECT_DIR$/CG/Output/humans/syntax_tree_non_terminal_nodes.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_NE_ALL_count.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_NE_ALL_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_automated_readability_index.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_automated_readability_index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_avg_word_legth.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_avg_word_legth.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_bi_gram_score.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_bi_gram_score.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_coleman_liau_index.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_coleman_liau_index.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_contentWord_functionWords.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_contentWord_functionWords.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_dale_chall_readability_score.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_dale_chall_readability_score.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_dependency_complexity.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_dependency_complexity.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_flesch_kincaid_grade.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_flesch_kincaid_grade.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_flesch_reading_ease.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_flesch_reading_ease.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_gunning_fog.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_gunning_fog.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_lexicon_count.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_lexicon_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_stopword_count.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_stopword_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_syllable_count.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_syllable_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_syntax_tree_height.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_syntax_tree_height.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Data/wordnet/wordnet_syntax_tree_non_terminal_node_count.png" afterPath="$PROJECT_DIR$/CG/Output/wordnet/wordnet_syntax_tree_non_terminal_node_count.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/DataDictionaryParser.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/ThreadPool.py" afterPath="$PROJECT_DIR$/CG/Utils/ThreadPool.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/Utils.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/Utils.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/dicCopy.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/dicCopy.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/CG/readDic.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/readDic.py" />
+    <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/Charts/graphs.py" afterPath="$PROJECT_DIR$/CG/Charts/graphs.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +19,7 @@
       <file leaf-file-name="graphs.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/Charts/graphs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="315">
               <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
@@ -91,8 +33,8 @@
       <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="392">
+              <caret line="50" column="61" lean-forward="true" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -101,10 +43,18 @@
       <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#2477#2831#0" expanded="false" />
+                <element signature="e#2893#3083#0" expanded="false" />
+                <element signature="e#3127#3414#0" expanded="false" />
+                <element signature="e#3473#3872#0" expanded="false" />
+                <element signature="e#3994#4335#0" expanded="false" />
+                <element signature="e#4391#4611#0" expanded="false" />
+                <element signature="e#4655#4892#0" expanded="false" />
+                <element signature="e#4928#6771#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,8 +63,8 @@
       <file leaf-file-name="DataDictionaryParser.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -123,31 +73,11 @@
       <file leaf-file-name="ClueGenerator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/Extractors/ClueGenerator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="195">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameParser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/GameParser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dicCopy.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/dicCopy.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -248,12 +178,12 @@
         <option value="$PROJECT_DIR$/CG/FeatureExtractor/ThreadPool.py" />
         <option value="$PROJECT_DIR$/CG/FeatureExtractor/FunctionWords.py" />
         <option value="$PROJECT_DIR$/CG/FeatureExtractor/ContentWords.py" />
-        <option value="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
         <option value="$PROJECT_DIR$/CG/Data/new4.txt" />
-        <option value="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
         <option value="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" />
         <option value="$PROJECT_DIR$/CG/Charts/graphs.py" />
         <option value="$PROJECT_DIR$/CG/Extractors/ClueGenerator.py" />
+        <option value="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
+        <option value="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
       </list>
     </option>
   </component>
@@ -278,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,10 +215,22 @@
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="Output" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -321,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.graphs">
+  <component name="RunManager" selected="Python.FeatureExtractor">
     <configuration name="FeatureExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -416,10 +357,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.graphs" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tsvTocsv" />
-        <item index="2" class="java.lang.String" itemvalue="Python.FeatureExtractor" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TextFeatures" />
+        <item index="0" class="java.lang.String" itemvalue="Python.FeatureExtractor" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TextFeatures" />
+        <item index="2" class="java.lang.String" itemvalue="Python.graphs" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tsvTocsv" />
         <item index="4" class="java.lang.String" itemvalue="Python.dicCopy" />
       </list>
     </recent_temporary>
@@ -498,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516075468703</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="featureExtractor">
+      <created>1516172905644</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1516172905644</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -511,13 +459,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="22" width="1397" height="878" extended-state="6" />
+    <frame x="49" y="22" width="1391" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32693726" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33135656" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119777" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694763" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31162196" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31162196" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23882504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -530,6 +478,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694763" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -695,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-19091">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="1120" column="0" lean-forward="false" selection-start-line="1120" selection-start-column="0" selection-end-line="1120" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="1833" column="0" lean-forward="false" selection-start-line="1833" selection-start-column="0" selection-end-line="1833" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="700" column="0" lean-forward="false" selection-start-line="700" selection-start-column="0" selection-end-line="700" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,18 +712,6 @@
     <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/lexicon_count.png" />
     <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/NE_ALL_count.png" />
     <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/NE_DATE_and_Time_count.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Charts/graphs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#975#1458#0" expanded="false" />
-            <element signature="e#1488#2376#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -788,20 +720,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="67" column="29" lean-forward="true" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -810,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,15 +756,15 @@
     <entry file="file://$PROJECT_DIR$/CG/CustomScripts/dicCopy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CG/Extractors/ClueGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
@@ -858,10 +779,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CG/Charts/graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#975#1458#0" expanded="false" />
+            <element signature="e#1488#2376#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#2477#2831#0" expanded="false" />
+            <element signature="e#2893#3083#0" expanded="false" />
+            <element signature="e#3127#3414#0" expanded="false" />
+            <element signature="e#3473#3872#0" expanded="false" />
+            <element signature="e#3994#4335#0" expanded="false" />
+            <element signature="e#4391#4611#0" expanded="false" />
+            <element signature="e#4655#4892#0" expanded="false" />
+            <element signature="e#4928#6771#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" column="21" lean-forward="false" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="392">
+          <caret line="50" column="61" lean-forward="true" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
           <folding />
         </state>
       </provider>

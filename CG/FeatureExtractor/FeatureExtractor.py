@@ -27,12 +27,14 @@ def getNumericValue(text, annotator):
     features['avg_word_legth'] = text_features.avg_letters_per_word_count()
     features['stopword_count'] = text_features.stopword_count()
     features['bi_gram_score'] = text_features.nGram(2)
+
     #features['tri_gram_score'] = text_features.nGram(3)
     features['syntax_tree_height'] = text_features.syntax_tree_height()
     features['syntax_tree_non_terminal_node_count'] = text_features.syntax_tree_non_terminal_node_count()
-    features['avg_branching_factor_syntax_tree'] = text_features.avg_branching_factor_syntax_tree()
-    features['adjective_and_participle_count'] = text_features.avg_branching_factor_syntax_tree()
+    #features['avg_branching_factor_syntax_tree'] = text_features.avg_branching_factor_syntax_tree()
+    #features['adjective_and_participle_count'] = text_features.avg_branching_factor_syntax_tree()
     features['dependency_complexity'] = text_features.dependency_complexity()
+    features['frame_count'] = text_features.frame_count()
     #features['preposition_count'] = text_features.avg_branching_factor_syntax_tree()
 
     readability_test = readablility(text)
