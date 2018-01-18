@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" />
     </list>
@@ -30,31 +29,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="50" column="61" lean-forward="true" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
+            <state relative-caret-position="407">
+              <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+            <state relative-caret-position="983">
+              <caret line="83" column="145" lean-forward="false" selection-start-line="83" selection-start-column="145" selection-end-line="83" selection-end-column="145" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#2477#2831#0" expanded="false" />
-                <element signature="e#2893#3083#0" expanded="false" />
-                <element signature="e#3127#3414#0" expanded="false" />
-                <element signature="e#3473#3872#0" expanded="false" />
-                <element signature="e#3994#4335#0" expanded="false" />
-                <element signature="e#4391#4611#0" expanded="false" />
-                <element signature="e#4655#4892#0" expanded="false" />
-                <element signature="e#4928#6771#0" expanded="false" />
+                <element signature="e#2518#2872#0" expanded="false" />
+                <element signature="e#2934#3124#0" expanded="false" />
+                <element signature="e#3168#3455#0" expanded="false" />
+                <element signature="e#3514#3913#0" expanded="false" />
+                <element signature="e#4035#4376#0" expanded="false" />
+                <element signature="e#4432#4652#0" expanded="false" />
+                <element signature="e#4696#4933#0" expanded="false" />
+                <element signature="e#4969#6812#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -460,12 +459,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="22" width="1391" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33135656" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119777" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31162196" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31162196" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23882504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -791,29 +789,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="12" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#2477#2831#0" expanded="false" />
-            <element signature="e#2893#3083#0" expanded="false" />
-            <element signature="e#3127#3414#0" expanded="false" />
-            <element signature="e#3473#3872#0" expanded="false" />
-            <element signature="e#3994#4335#0" expanded="false" />
-            <element signature="e#4391#4611#0" expanded="false" />
-            <element signature="e#4655#4892#0" expanded="false" />
-            <element signature="e#4928#6771#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="407">
+          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="50" column="61" lean-forward="true" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="983">
+          <caret line="83" column="145" lean-forward="false" selection-start-line="83" selection-start-column="145" selection-end-line="83" selection-end-column="145" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#2518#2872#0" expanded="false" />
+            <element signature="e#2934#3124#0" expanded="false" />
+            <element signature="e#3168#3455#0" expanded="false" />
+            <element signature="e#3514#3913#0" expanded="false" />
+            <element signature="e#4035#4376#0" expanded="false" />
+            <element signature="e#4432#4652#0" expanded="false" />
+            <element signature="e#4696#4933#0" expanded="false" />
+            <element signature="e#4969#6812#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

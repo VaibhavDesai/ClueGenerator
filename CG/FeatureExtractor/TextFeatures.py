@@ -78,10 +78,10 @@ class TextFeatures:
     def nGram(self, n):
 
         try:
-            n_gram_score = []
+            n_gram_score = {}
             if n == 2:
                 for i in range(len(self.word_tokens)-1):
-                    n_gram_score.append(self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])])
+                    n_gram_score[self.word_tokens[i]+" "+self.word_tokens[i+1]] = self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])]
 
             '''if n == 3:
                 for i in range(len(self.word_tokens)-2):
