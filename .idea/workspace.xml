@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="407">
-              <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+              <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -42,7 +41,7 @@
       <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="983">
+            <state relative-caret-position="365">
               <caret line="83" column="145" lean-forward="false" selection-start-line="83" selection-start-column="145" selection-end-line="83" selection-end-column="145" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
@@ -59,7 +58,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -196,10 +205,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="49" />
     <option name="y" value="22" />
-    <option name="width" value="1397" />
+    <option name="width" value="1391" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectView">
@@ -224,6 +233,22 @@
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="FeatureExtractor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -237,15 +262,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CG/Utils" />
       <recent name="$PROJECT_DIR$/CG/Output" />
       <recent name="$PROJECT_DIR$/CG/Extractors" />
       <recent name="$PROJECT_DIR$/CG/CustomScripts" />
       <recent name="$PROJECT_DIR$/CG/Data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -444,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516172905644</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="featureExtractor">
+      <created>1516263079702</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516263079703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -457,7 +490,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="22" width="1391" height="878" extended-state="6" />
+    <frame x="49" y="22" width="1391" height="878" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33135656" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -543,13 +576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CG/Extractors/ExtractFromWorkNet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/CustomScripts/excelToDictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -784,14 +810,22 @@
     <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
-          <caret line="51" column="40" lean-forward="true" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="983">
+        <state relative-caret-position="365">
           <caret line="83" column="145" lean-forward="false" selection-start-line="83" selection-start-column="145" selection-end-line="83" selection-end-column="145" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
@@ -807,7 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
