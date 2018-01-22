@@ -1,11 +1,12 @@
 from textstat.textstat import textstat
-from nltk.corpus import stopwords
+
 from nltk.tokenize import word_tokenize
 import nltk
+
 from nltk.util import ngrams
 
 from collections import Counter
-
+from practnlptools.tools import Annotator
 
 class TextFeatures:
 
@@ -16,15 +17,22 @@ class TextFeatures:
     word_tokens = []
     syntax_tree = ""
     annotation = None
-    stop_words = set(stopwords.words('english'))
 
-    def __init__(self, text,annotator, brown_words):
+
+    def __init__(self, text, brown, stop_words):
         self.text = text
-        self.annotation = annotator.getAnnotations(self.text, dep_parse=True)
+        self.stop_words = stop_words
+        self.annotator = Annotator()
+        self.annotation = self.annotator.getAnnotations(self.text)
         self.syntax_tree = self.annotation['syntax_tree']
 
         self.word_tokens = word_tokenize(self.text)
 
+        for i in range(len(self.word_tokens)):
+            if "." in self.word_tokens[i]:
+                self.word_tokens[i] = self.word_tokens[i][:-1]
+
+        brown_words = brown.words()
         bigrams = ngrams(brown_words, 2)
         #trigrams = ngrams(brown_words, 3)
 
@@ -81,12 +89,11 @@ class TextFeatures:
             n_gram_score = {}
             if n == 2:
                 for i in range(len(self.word_tokens)-1):
-                    n_gram_score[self.word_tokens[i]+" "+self.word_tokens[i+1]] = self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])]
+                    try:
+                        n_gram_score[self.word_tokens[i]+" "+self.word_tokens[i+1]] = self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])]
+                    except:
+                        continue
 
-            '''if n == 3:
-                for i in range(len(self.word_tokens)-2):
-                    n_gram_score += self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1], self.word_tokens[i+2])]
-            '''
             return n_gram_score
         except:
             return 0

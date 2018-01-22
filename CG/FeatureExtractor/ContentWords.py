@@ -24,6 +24,23 @@ import nltk
     VBN: verb, past participle
     VBP: verb, present tense, not 3rd person singular
     VBZ: verb, present tense, 3rd person singular
+    
+    
+    Function Words
+     >>>nltk.help.upenn_tagset()
+    
+    Pronouns, prepositions, conjunctions, determiners, qualifiers/intensifiers, and interrogatives 
+    
+    IN: preposition or conjunction, subordinating
+    CC: conjunction, coordinating
+    PRP: pronoun, personal
+    PRP$: pronoun, possessive
+    WDT: WH-determiner
+    WP: WH-pronoun
+    WP$: WH-pronoun, possessive
+    UH: interjection
+    PDT: pre-determiner
+    
 '''
 
 class ContentWords:

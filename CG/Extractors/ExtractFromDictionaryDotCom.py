@@ -1,16 +1,21 @@
 
 import re
-from Utils import *
+from bs4 import BeautifulSoup
+import urllib2
 
 class ExtractFromDictionaryDotCom:
 
     def __init__(self):
         pass
 
+    def getWebContent(searchString):
+        response = urllib2.urlopen(searchString)
+        return BeautifulSoup(response.read(), 'html.parser')
+
     def extractDefinitions(self, word):
         source = "http://www.dictionary.com/browse/"
         searchString = source + word + "?s=t"
-        soup = getWebContent(searchString)
+        soup = self.getWebContent(searchString)
 
         types = {}
 
@@ -64,7 +69,7 @@ class ExtractFromDictionaryDotCom:
     def extractSynonymsAndAntonyms(self, word):
         source = "http://www.thesaurus.com/browse/"
         searchString = source + word
-        soup = getWebContent(searchString)
+        soup = self.getWebContent(searchString)
         types = {}
         types['synonyms'] = []
         types['antonyms'] = []
@@ -95,5 +100,9 @@ class ExtractFromDictionaryDotCom:
         return types
 
     def extractFromDictionaryDotCom(self, word):
-        print "here"
-        return mergeTwoDicts(self.extractDefinitions(word), self.extractSynonymsAndAntonyms(word))
+        return self.mergeTwoDicts(self.extractDefinitions(word), self.extractSynonymsAndAntonyms(word))
+
+    def mergeTwoDicts(x, y):
+        z = x.copy()  # start with x's keys and values
+        z.update(y)  # modifies z with y's keys and values & returns None
+        return z
