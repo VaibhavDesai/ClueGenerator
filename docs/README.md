@@ -47,3 +47,18 @@ More info about all the readability tests https://wordcounttools.com/dale_chall_
 
 
 The machine clues were also classified based on the type of the clue ( definition, example, sys, wiki, idiomPhrase, wnNounHyper ect. )
+
+Here are some of the observations:
+
+Some of the screenshots of the App.
+![architecture](https://github.com/VaibhavDesai/ClueGenerator/blob/master/CG/Output/humans/automated_readability_index.png?raw=true "Img1")
+
+![webApp](https://github.com/VaibhavDesai/ClueGenerator/blob/master/CG/Output/humans/avg_word_length.png?raw=true "Img1")
+
+![src1](https://github.com/VaibhavDesai/ClueGenerator/blob/master/CG/Output/humans/bi_gram_frequency.png?raw=true "Img1")
+
+![architecture](https://github.com/VaibhavDesai/ClueGenerator/blob/master/CG/Output/humans/coleman_liau_index.png?raw=true "Img1")
+
+![webApp](https://github.com/VaibhavDesai/ClueGenerator/blob/master/CG/Output/humans/syntax_tree.png?raw=true "Img1")
+
+![src1](https://github.com/VaibhavDesai/ClueGenerator/blob/master/CG/Output/humans/stopword_count.png?raw=true "Img1")
