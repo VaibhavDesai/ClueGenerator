@@ -60,7 +60,7 @@ class ThreadPool:
         self.tasks.join()
 
 
-def getNumericValue(row, brown, stop_words):
+def getNumericValue(row, brown, stop_words ):
 
     features = {}
     features['curID'] = row['curID']
@@ -187,28 +187,24 @@ def dicToCVS(result, file_path):
     employ_data.close()
 
 def readingClues(file_path):
-    client = MongoClient(port=27017)
-    #pool = ThreadPool(20)
+
+    pool = ThreadPool(20)
     count = 0
-    db = client.test
     with open(file_path) as csvfile:
         reader = csv.DictReader(csvfile)
         brown.ensure_loaded()
         stopwords.ensure_loaded()
         stop_words = set(stopwords.words('english'))
-        fe_list = []
+
         for row in reader:
             print count
             print row['rawClue']
             try:
-                fe_list.append(getNumericValue(row, brown, stop_words))
-    #            pool.add_task()
+                pool.add_task(getNumericValue, row, brown, stop_words)
                 count += 1
-                if count%10 == 0:
-                    db.test.insert_many(fe_list)
             except:
                 continue
-    #    pool.wait_completion()
+        pool.wait_completion()
 
 t0 = time.time()
 readingClues("../Data/newDicToExcel.csv")

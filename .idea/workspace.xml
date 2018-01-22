@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/CustomScripts/Preprocessing.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/Utils/DBWriter.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/FunctionWords.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/Extractors/ExtractFromDictionaryDotCom.py" afterPath="$PROJECT_DIR$/CG/Extractors/ExtractFromDictionaryDotCom.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/ContentWords.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/ContentWords.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/Utils/ThreadPool.py" afterPath="$PROJECT_DIR$/CG/Utils/ThreadPool.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pip-selfcheck.json" afterPath="$PROJECT_DIR$/pip-selfcheck.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,27 +13,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="207" column="48" lean-forward="false" selection-start-line="207" selection-start-column="48" selection-end-line="207" selection-end-column="48" />
+            <state relative-caret-position="82">
+              <caret line="190" column="24" lean-forward="false" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <element signature="e#973#1520#0" expanded="false" />
-                <element signature="e#1573#4096#0" expanded="false" />
-                <element signature="e#4127#6845#0" expanded="false" />
-                <element signature="e#6885#7313#0" expanded="false" />
+                <element signature="e#1574#4097#0" expanded="false" />
+                <element signature="e#4128#6846#0" expanded="false" />
+                <element signature="e#6886#7314#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="437">
+              <caret line="94" column="32" lean-forward="false" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
                 <element signature="e#1099#1193#0" expanded="false" />
@@ -52,7 +42,6 @@
                 <element signature="e#1460#1687#0" expanded="false" />
                 <element signature="e#1727#1932#0" expanded="false" />
                 <element signature="e#1979#2096#0" expanded="false" />
-                <element signature="e#2131#2551#0" expanded="false" />
                 <element signature="e#2596#2950#0" expanded="false" />
                 <element signature="e#3012#3202#0" expanded="false" />
                 <element signature="e#3246#3533#0" expanded="false" />
@@ -839,24 +828,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="207" column="48" lean-forward="false" selection-start-line="207" selection-start-column="48" selection-end-line="207" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <element signature="e#973#1520#0" expanded="false" />
-            <element signature="e#1573#4096#0" expanded="false" />
-            <element signature="e#4127#6845#0" expanded="false" />
-            <element signature="e#6885#7313#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="437">
+          <caret line="94" column="32" lean-forward="false" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="e#1099#1193#0" expanded="false" />
@@ -865,7 +840,6 @@
             <element signature="e#1460#1687#0" expanded="false" />
             <element signature="e#1727#1932#0" expanded="false" />
             <element signature="e#1979#2096#0" expanded="false" />
-            <element signature="e#2131#2551#0" expanded="false" />
             <element signature="e#2596#2950#0" expanded="false" />
             <element signature="e#3012#3202#0" expanded="false" />
             <element signature="e#3246#3533#0" expanded="false" />
@@ -873,6 +847,20 @@
             <element signature="e#4113#4454#0" expanded="false" />
             <element signature="e#4510#4730#0" expanded="false" />
             <element signature="e#4774#5011#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="190" column="24" lean-forward="false" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#973#1520#0" expanded="false" />
+            <element signature="e#1574#4097#0" expanded="false" />
+            <element signature="e#4128#6846#0" expanded="false" />
+            <element signature="e#6886#7314#0" expanded="false" />
           </folding>
         </state>
       </provider>
