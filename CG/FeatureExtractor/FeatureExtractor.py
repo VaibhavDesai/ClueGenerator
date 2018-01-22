@@ -5,7 +5,6 @@ import os
 from nltk.corpus import brown
 from practnlptools.tools import Annotator
 
-from CG.Utils.ThreadPool import ThreadPool
 from ContentWords import ContentWords
 from ReadabilityTest import readablility
 from TextFeatures import TextFeatures
@@ -78,7 +77,7 @@ def dicToCVS(result, file_path):
 
 def readingClues(file_path):
 
-    pool = ThreadPool(2)
+    #pool = ThreadPool(2)
     count = 0
     anntator = Annotator()
     result = []
@@ -89,7 +88,7 @@ def readingClues(file_path):
             print row['rawClue']
             try:
                 features = getNumericValue(row['rawClue'], anntator)
-                features['ID'] = count
+                features['curID'] = row['curID']
                 features['rawClue'] = row['rawClue']
                 features['target'] = row['target']
                 features['source'] = row['source']
@@ -98,14 +97,14 @@ def readingClues(file_path):
                 #pool.add_task(getNumericValue, features['rawClue'])
                 count += 1
                 if count%100 == 0:
-                    dicToCVS(result,"../Data/new4.txt")
+                    dicToCVS(result,"../Data/new10.txt")
                     result = []
             except:
                 continue
         #pool.wait_completion()
 
 t0 = time.time()
-readingClues("../Data/dicToExcel.csv")
+readingClues("../Data/newDicToExcel.csv")
 t1 = time.time()
 total = t1-t0
 print total

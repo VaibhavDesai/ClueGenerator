@@ -24,6 +24,9 @@ class TextFeatures:
         self.syntax_tree = self.annotation['syntax_tree']
 
         self.word_tokens = word_tokenize(self.text)
+        for i in range(len(self.word_tokens)):
+            if "." in self.word_tokens[i]:
+                self.word_tokens[i] = self.word_tokens[i][:-1]
 
         bigrams = ngrams(brown_words, 2)
         #trigrams = ngrams(brown_words, 3)

@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="$PROJECT_DIR$/docs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,25 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="graphs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/Charts/graphs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#975#1458#0" expanded="false" />
-                <element signature="e#1488#2376#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
+            <state relative-caret-position="-1054">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,82 +29,39 @@
       <file leaf-file-name="TextFeatures.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="83" column="145" lean-forward="false" selection-start-line="83" selection-start-column="145" selection-end-line="83" selection-end-column="145" />
+            <state relative-caret-position="315">
+              <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#2518#2872#0" expanded="false" />
-                <element signature="e#2934#3124#0" expanded="false" />
-                <element signature="e#3168#3455#0" expanded="false" />
-                <element signature="e#3514#3913#0" expanded="false" />
-                <element signature="e#4035#4376#0" expanded="false" />
-                <element signature="e#4432#4652#0" expanded="false" />
-                <element signature="e#4696#4933#0" expanded="false" />
-                <element signature="e#4969#6812#0" expanded="false" />
+                <marker date="1516597892371" expanded="false" signature="2661:3025" ph="..." />
+                <marker date="1516597892371" expanded="false" signature="3077:3277" ph="..." />
+                <marker date="1516597892371" expanded="false" signature="3311:3602" ph="..." />
+                <marker date="1516597892371" expanded="false" signature="3657:4060" ph="..." />
+                <marker date="1516597892371" expanded="false" signature="4179:4529" ph="..." />
+                <marker date="1516597892371" expanded="false" signature="4576:4805" ph="..." />
+                <marker date="1516597892371" expanded="false" signature="4839:5086" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <file leaf-file-name="ReadabilityTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/ReadabilityTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="ContentWords.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/ContentWords.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataDictionaryParser.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClueGenerator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/Extractors/ClueGenerator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="242">
+              <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
               <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readDic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/readDic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/Utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,6 +91,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ThreadPool" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -190,17 +140,17 @@
         <option value="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" />
         <option value="$PROJECT_DIR$/CG/Charts/graphs.py" />
         <option value="$PROJECT_DIR$/CG/Extractors/ClueGenerator.py" />
-        <option value="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
-        <option value="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/README.md" />
+        <option value="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
+        <option value="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
+    <option name="x" value="41" />
     <option name="y" value="22" />
-    <option name="width" value="1391" />
+    <option name="width" value="1399" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectView">
@@ -218,6 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,18 +185,36 @@
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="CG" type="462c0819:PsiDirectoryNode" />
-              <item name="Output" type="462c0819:PsiDirectoryNode" />
+              <item name="CustomScripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="Extractors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="FeatureExtractor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -496,14 +465,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="49" y="22" width="1313" height="878" extended-state="0" />
+    <frame x="41" y="22" width="1399" height="878" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35169157" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21223287" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119777" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31162196" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3256705" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23882504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3256705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -625,8 +595,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/ContentWords.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -641,6 +614,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +723,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,9 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,37 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#975#1458#0" expanded="false" />
-            <element signature="e#1488#2376#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="51" column="40" lean-forward="false" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="83" column="145" lean-forward="false" selection-start-line="83" selection-start-column="145" selection-end-line="83" selection-end-column="145" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#2518#2872#0" expanded="false" />
-            <element signature="e#2934#3124#0" expanded="false" />
-            <element signature="e#3168#3455#0" expanded="false" />
-            <element signature="e#3514#3913#0" expanded="false" />
-            <element signature="e#4035#4376#0" expanded="false" />
-            <element signature="e#4432#4652#0" expanded="false" />
-            <element signature="e#4696#4933#0" expanded="false" />
-            <element signature="e#4969#6812#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -844,22 +779,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html" />
     <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="62" lean-forward="false" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1516597892371" expanded="false" signature="2661:3025" ph="..." />
+            <marker date="1516597892371" expanded="false" signature="3077:3277" ph="..." />
+            <marker date="1516597892371" expanded="false" signature="3311:3602" ph="..." />
+            <marker date="1516597892371" expanded="false" signature="3657:4060" ph="..." />
+            <marker date="1516597892371" expanded="false" signature="4179:4529" ph="..." />
+            <marker date="1516597892371" expanded="false" signature="4576:4805" ph="..." />
+            <marker date="1516597892371" expanded="false" signature="4839:5086" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1054">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
