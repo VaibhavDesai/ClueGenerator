@@ -2,9 +2,8 @@ from textstat.textstat import textstat
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import nltk
-from nltk.util import ngrams
+import time
 
-from collections import Counter
 
 
 class TextFeatures:
@@ -18,22 +17,32 @@ class TextFeatures:
     annotation = None
     stop_words = set(stopwords.words('english'))
 
-    def __init__(self, text,annotator, brown_words):
+    def __init__(self, text,annotator, bigrams_freq):
         self.text = text
+        self.bigrams_freq = bigrams_freq
+        #times=[]
+        #times.append(time.time())
         self.annotation = annotator.getAnnotations(self.text, dep_parse=True)
+        #times.append(time.time())
         self.syntax_tree = self.annotation['syntax_tree']
-
+        #times.append(time.time())
         self.word_tokens = word_tokenize(self.text)
+        #times.append(time.time())
         for i in range(len(self.word_tokens)):
             if "." in self.word_tokens[i]:
                 self.word_tokens[i] = self.word_tokens[i][:-1]
 
-        bigrams = ngrams(brown_words, 2)
-        #trigrams = ngrams(brown_words, 3)
+        #times.append(time.time())
 
-        self.bigrams_freq = Counter(bigrams)
-        #self.trigrams_freq = Counter(trigrams)
-
+        '''
+        tracker=0
+        for tim in times:
+            if tracker>0:
+                print "count_2 "+str(tracker)+":"+str(tim-last)
+            tracker=tracker+1
+            last=tim
+        '''
+        
     def lexicon_count(self):
 
         try:

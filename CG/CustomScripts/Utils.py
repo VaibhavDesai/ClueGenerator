@@ -4,6 +4,7 @@ import urllib2
 import csv
 import datetime
 import os
+import random
 
 def mergeTwoDicts(x, y):
     z = x.copy()   # start with x's keys and values
@@ -61,4 +62,23 @@ def readFile():
         vals = [line[1], line[2], line[4], line[0], line[3]]
         csvwriter.writerow(vals)
 
-readFile()
+def addingRandomTragetFeature():
+    target = [1,0]
+    with open('../Data/featureExtractedDic/feature_dic.csv', 'r') as csvinput:
+        with open('../Data/featureExtractedDic/feature_dic1.csv', 'a') as csvoutput:
+            writer = csv.writer(csvoutput)
+            reader = csv.reader(csvinput)
+
+            all = []
+            row = next(reader)
+            row.append('target')
+            all.append(row)
+
+            for row in reader:
+                row.append(random.choice(target))
+                all.append(row)
+
+            writer.writerows(all)
+
+addingRandomTragetFeature()
+#readFile()
