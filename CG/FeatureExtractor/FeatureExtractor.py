@@ -112,29 +112,32 @@ def readingClues(file_path):
     count = 0
     anntator = Annotator()
     result = []
-
     with open(file_path) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            print count
-            print row['rawClue']
-            #try:
-            features = getNumericValue(row['rawClue'], anntator)
-            features['curID'] = row['curID']
-            features['rawClue'] = row['rawClue']
-            features['target'] = row['target']
-            features['source'] = row['source']
-            features['type'] = row['type']
-            result.append(features)
-            #pool.add_task(getNumericValue, features['rawClue'])
-            count += 1
-            if count%100 == 0:
-                dicToCVS(result,"../Data/featureExtractedDic/new1.txt")
+            try:
+                print count
+                print row['rawClue']
+                #try:
+                features = getNumericValue(row['rawClue'], anntator)
+                features['curID'] = row['curID']
+                features['rawClue'] = row['rawClue']
+                features['target'] = row['target']
+                features['source'] = row['source']
+                features['type'] = row['type']
+                features['class'] = row['class']
+                result.append(features)
+                #pool.add_task(getNumericValue, features['rawClue'])
+                count += 1
+                if count%100 == 0:
+                    dicToCVS(result,"../Data/featureExtractedDic/OnlyGivenCluesfeaturesWithClass.txt")
+            except:
+                continue
 
 
 
 t0 = time.time()
-readingClues("../Data/newDicToExcel.csv")
+readingClues("/Users/vaibhavdesai/Documents/Projects/ClueGenerator/CG/Data/clueDic/onlyGivenClues.csv")
 t1 = time.time()
 total = t1-t0
 print total

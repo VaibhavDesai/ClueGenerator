@@ -42,7 +42,7 @@ class TextFeatures:
             tracker=tracker+1
             last=tim
         '''
-        
+
     def lexicon_count(self):
 
         try:
