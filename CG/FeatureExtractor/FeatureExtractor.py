@@ -74,6 +74,7 @@ def getNumericValue(text, annotator):
     features['NE_LOCATION_count'] = text_features.NER('LOCATION') + text_features.NER('GPE')
     #times.append(time.time())
     features['NE_DATE_and_Time_count'] = text_features.NER('DATE') + text_features.NER('TIME')
+    features['POS_bigram'] = text_features.getPosBigram()
     #times.append(time.time())
     count=0
     #print times
@@ -115,24 +116,24 @@ def readingClues(file_path):
     with open(file_path) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            try:
-                print count
-                print row['rawClue']
-                #try:
-                features = getNumericValue(row['rawClue'], anntator)
-                features['curID'] = row['curID']
-                features['rawClue'] = row['rawClue']
-                features['target'] = row['target']
-                features['source'] = row['source']
-                features['type'] = row['type']
-                features['class'] = row['class']
-                result.append(features)
-                #pool.add_task(getNumericValue, features['rawClue'])
-                count += 1
-                if count%100 == 0:
-                    dicToCVS(result,"../Data/featureExtractedDic/OnlyGivenCluesfeaturesWithClass.txt")
-            except:
-                continue
+            #try:
+            print count
+            print row['rawClue']
+            #try:
+            features = getNumericValue(row['rawClue'], anntator)
+            features['curID'] = row['curID']
+            features['rawClue'] = row['rawClue']
+            features['target'] = row['target']
+            features['source'] = row['source']
+            features['type'] = row['type']
+            features['class'] = row['class']
+            result.append(features)
+            #pool.add_task(getNumericValue, features['rawClue'])
+            count += 1
+            if count%100 == 0:
+                dicToCVS(result,"../Data/featureExtractedDic/OnlyGivenCluesfeaturesWithClass.txt")
+            #except:
+            #    continue
 
 
 

@@ -181,6 +181,18 @@ class TextFeatures:
         except:
             return 0
 
+    def getPosBigram(self):
+
+        posDic={}
+        for i in range(len(self.annotation['pos'])-1):
+            key = str(self.annotation['pos'][i][1]) + " "+str(self.annotation['pos'][i+1][1])
+            if not key in posDic.keys():
+                posDic[key] = 1
+            else:
+                posDic[key] += 1
+        print "pos"+str(posDic)
+        return posDic
+
     def preposition_count(self):
 
         try:
