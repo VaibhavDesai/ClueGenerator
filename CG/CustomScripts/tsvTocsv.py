@@ -9,8 +9,8 @@ csv_file = r"mycsv.csv"
 # it prevents \x1a, Ctrl-z, from ending the stream prematurely
 # and also stops Python converting to / from different line terminators
 # On other platforms, it has no effect
-txt_file = "../Data/featureExtractedDic/OnlyGivenCluesfeaturesWithClass.txt"
-csv_file = "../Data/featureExtractedDic/OnlyGivenCluesfeaturesWithClass.csv"
+txt_file = "/Users/vaibhavdesai/Documents/Projects/ClueGenerator/CG/Data/featureExtractedDic/conversationparserWithAllFeatures.txt"
+csv_file = "/Users/vaibhavdesai/Documents/Projects/ClueGenerator/CG/Data/featureExtractedDic/conversationparserWithAllFeatures.csv"
 in_txt = csv.reader(open(txt_file, "rb"), delimiter = '\t')
 out_csv = csv.writer(open(csv_file, 'a'))
 

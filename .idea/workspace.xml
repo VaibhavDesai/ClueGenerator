@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f91e5c2-591c-4bfd-a449-f674195ab6c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/Charts/GameClueAnalysis.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/CustomScripts/convertLogToCSV.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/Charts/GameParserAnalyser.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CG/GameParser/SourceAndTypeAdder.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CG/CustomScripts/GameParser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/abc.csv" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/Charts/ML.py" afterPath="$PROJECT_DIR$/CG/Charts/ML.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/Charts/GameClueAnalysis.py" afterPath="$PROJECT_DIR$/CG/Charts/GameClueAnalysis.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" afterPath="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" afterPath="$PROJECT_DIR$/CG/FeatureExtractor/in.parse" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CG/GameParser/conversationparser.py" afterPath="$PROJECT_DIR$/CG/GameParser/conversationparser.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +22,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameClueAnalysis.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameClueAnalysis.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/Charts/GameClueAnalysis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="186" column="25" lean-forward="false" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#2902#4356#0" expanded="false" />
-                <element signature="e#4406#4606#0" expanded="false" />
-                <element signature="e#4661#5598#0" expanded="false" />
-                <element signature="e#5657#5885#0" expanded="false" />
+                <element signature="e#8813#9879#0" expanded="false" />
+                <element signature="e#10748#12024#0" expanded="false" />
+                <element signature="e#12055#12565#0" expanded="false" />
+                <element signature="e#12590#13432#0" expanded="false" />
+                <element signature="e#14490#15146#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeatureExtractor.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="108" column="52" lean-forward="true" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+              <folding>
+                <element signature="e#434#2724#0" expanded="false" />
+                <element signature="e#2764#3178#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conversationparser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CG/GameParser/conversationparser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2805">
+              <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/sklearn/svm/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12480">
+              <caret line="852" column="0" lean-forward="false" selection-start-line="852" selection-start-column="0" selection-end-line="852" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameParserAnalyser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CG/Charts/GameParserAnalyser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="39" column="108" lean-forward="false" selection-start-line="39" selection-start-column="103" selection-end-line="39" selection-end-column="108" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convertLogToCSV.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/convertLogToCSV.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,11 +97,19 @@
       <file leaf-file-name="DictionaryToExcel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1395">
-              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="250">
+              <caret line="56" column="64" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataDictionaryParser.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -77,6 +142,12 @@
       <find>112248</find>
       <find>114117</find>
       <find>group_</find>
+      <find>eyes</find>
+      <find>95390L</find>
+      <find>out_of_time</find>
+      <find>ppr</find>
+      <find>guesser</find>
+      <find>You have run out of time</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WorkNetGenerator.py" />
-        <option value="$PROJECT_DIR$/ExtractFromWiki.py" />
         <option value="$PROJECT_DIR$/ExtractFromWorkNet.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/ExtractFromDictionaryDotCom.py" />
@@ -131,21 +200,25 @@
         <option value="$PROJECT_DIR$/docs/README.md" />
         <option value="$PROJECT_DIR$/CG/CustomScripts/Utils.py" />
         <option value="$PROJECT_DIR$/CG/Charts/graphs.py" />
-        <option value="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
         <option value="$PROJECT_DIR$/abc.csv" />
         <option value="$PROJECT_DIR$/CG/CustomScripts/convertLogToCSV.py" />
-        <option value="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
-        <option value="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" />
         <option value="$PROJECT_DIR$/CG/Charts/ML.py" />
         <option value="$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py" />
+        <option value="$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py" />
+        <option value="$PROJECT_DIR$/CG/GameParser/conversationparser.py" />
+        <option value="$PROJECT_DIR$/CG/GameParser/SourceAndTypeAdder.py" />
+        <option value="$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py" />
+        <option value="$PROJECT_DIR$/CG/Charts/GameParserAnalyser.py" />
         <option value="$PROJECT_DIR$/CG/Charts/GameClueAnalysis.py" />
+        <option value="$PROJECT_DIR$/CG/CustomScripts/temp.py" />
+        <option value="$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="52" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
     <option name="y" value="22" />
-    <option name="width" value="1388" />
+    <option name="width" value="1389" />
     <option name="height" value="878" />
   </component>
   <component name="ProjectView">
@@ -163,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -181,25 +253,31 @@
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="CG" type="462c0819:PsiDirectoryNode" />
+              <item name="Charts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
+              <item name="CG" type="462c0819:PsiDirectoryNode" />
               <item name="CustomScripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="CG" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="FeatureExtractor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ClueGenerator" type="b2602c69:ProjectViewProjectNode" />
               <item name="ClueGenerator" type="462c0819:PsiDirectoryNode" />
               <item name="CG" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="clueDic" type="462c0819:PsiDirectoryNode" />
+              <item name="GameParser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -231,24 +309,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GameClueAnalysis">
-    <configuration name="DictionaryToExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CG/CustomScripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="clueGenerator" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.temp">
     <configuration name="FeatureExtractor" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -283,7 +344,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="ML" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GameParserAnalyser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -295,7 +356,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="clueGenerator" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CG/Charts/ML.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CG/Charts/GameParserAnalyser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="temp" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CG/CustomScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="clueGenerator" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CG/CustomScripts/temp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -319,16 +397,16 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.FeatureExtractor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tsvTocsv" />
-      <item index="2" class="java.lang.String" itemvalue="Python.DictionaryToExcel" />
-      <item index="3" class="java.lang.String" itemvalue="Python.ML" />
-      <item index="4" class="java.lang.String" itemvalue="Python.GameClueAnalysis" />
+      <item index="1" class="java.lang.String" itemvalue="Python.GameParserAnalyser" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tsvTocsv" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GameClueAnalysis" />
+      <item index="4" class="java.lang.String" itemvalue="Python.temp" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GameClueAnalysis" />
-        <item index="1" class="java.lang.String" itemvalue="Python.DictionaryToExcel" />
-        <item index="2" class="java.lang.String" itemvalue="Python.ML" />
+        <item index="0" class="java.lang.String" itemvalue="Python.temp" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GameClueAnalysis" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GameParserAnalyser" />
         <item index="3" class="java.lang.String" itemvalue="Python.tsvTocsv" />
         <item index="4" class="java.lang.String" itemvalue="Python.FeatureExtractor" />
       </list>
@@ -449,19 +527,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="52" y="22" width="1388" height="878" extended-state="6" />
+    <frame x="51" y="22" width="1389" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25408617" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21677803" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694763" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3119777" sideWeight="0.5028612" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20689656" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23882504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3256705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.50319284" sideWeight="0.49713877" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694763" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -511,19 +589,11 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="18" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/avg_word_legth.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/bi_gram_score.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/coleman_liau_index.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/contentWord_functionWords.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/dale_chall_readability_score.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/wordnet_NE_ALL_count.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/wordnet_syntax_tree_non_terminal_node_count.png" />
-    <entry file="file://$PROJECT_DIR$/CG/Data/dict.com_NE_ORGANIZATION_count.png" />
     <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/pandas/core/ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -545,13 +615,6 @@
     <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/lexicon_count.png" />
     <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/NE_ALL_count.png" />
     <entry file="file://$PROJECT_DIR$/CG/Data/beeSwarnPlotForWordNetAndDictExampleSentences/NE_DATE_and_Time_count.png" />
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -559,31 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/readDic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/dicCopy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/Extractors/ClueGenerator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/GameParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -616,13 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/Data/featureExtractedDic/feature_dic.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/Data/featureExtractedDic/feature_dic.csv" />
     <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -651,38 +687,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/Utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="41" lean-forward="false" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CG/Data/clueDic/curInteractionLogTable.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/abc.csv" />
+    <entry file="file://$PROJECT_DIR$/CG/Data/clueDic/curInteractionLogTable.csv" />
     <entry file="file://$PROJECT_DIR$/CG/Objects/clues.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -700,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/convertLogToCSV.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CG/Output/gameClues/automated_readability_index.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -719,13 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/pandas/core/indexes/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="2526" column="0" lean-forward="false" selection-start-line="2526" selection-start-column="0" selection-end-line="2526" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../IntroToML/helloWorld.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -733,54 +729,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/TextFeatures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1980">
-          <caret line="132" column="100" lean-forward="false" selection-start-line="132" selection-start-column="37" selection-end-line="132" selection-end-column="100" />
+        <state relative-caret-position="492">
+          <caret line="178" column="30" lean-forward="false" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/Charts/graphs.py">
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/GameParser.py" />
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/dicCopy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="144" column="48" lean-forward="false" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
+        <state relative-caret-position="225">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/Charts/ML.py">
+    <entry file="file://$PROJECT_DIR$/CG/Data/conversationparser.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/GameParser/SourceAndTypeAdder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="44" lean-forward="false" selection-start-line="43" selection-start-column="44" selection-end-line="43" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CG/CustomScripts/tsvTocsv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="75" />
+        <state relative-caret-position="240">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py">
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/Utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+        <state relative-caret-position="-377">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/readDic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/Charts/graphs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="109" column="33" lean-forward="true" selection-start-line="109" selection-start-column="33" selection-end-line="109" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/Charts/ML.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/sklearn/svm/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12480">
+          <caret line="852" column="0" lean-forward="false" selection-start-line="852" selection-start-column="0" selection-end-line="852" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="2148" column="27" lean-forward="false" selection-start-line="2148" selection-start-column="27" selection-end-line="2148" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="2526" column="0" lean-forward="false" selection-start-line="2526" selection-start-column="0" selection-end-line="2526" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/Charts/GameParserAnalyser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="108" lean-forward="false" selection-start-line="39" selection-start-column="103" selection-end-line="39" selection-end-column="108" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CG/Charts/GameClueAnalysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="252" column="0" lean-forward="false" selection-start-line="252" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="186" column="25" lean-forward="false" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <element signature="e#2902#4356#0" expanded="false" />
-            <element signature="e#4406#4606#0" expanded="false" />
-            <element signature="e#4661#5598#0" expanded="false" />
-            <element signature="e#5657#5885#0" expanded="false" />
+            <element signature="e#8813#9879#0" expanded="false" />
+            <element signature="e#10748#12024#0" expanded="false" />
+            <element signature="e#12055#12565#0" expanded="false" />
+            <element signature="e#12590#13432#0" expanded="false" />
+            <element signature="e#14490#15146#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/GameParser/conversationparser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/convertLogToCSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DataDictionaryParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="67" column="29" lean-forward="false" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/excelToDictionary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/DictionaryToExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="56" column="64" lean-forward="false" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/CustomScripts/temp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CG/FeatureExtractor/FeatureExtractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="108" column="52" lean-forward="true" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+          <folding>
+            <element signature="e#434#2724#0" expanded="false" />
+            <element signature="e#2764#3178#0" expanded="false" />
           </folding>
         </state>
       </provider>
