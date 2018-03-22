@@ -18,30 +18,17 @@ class TextFeatures:
     stop_words = set(stopwords.words('english'))
 
     def __init__(self, text,annotator, bigrams_freq):
+
         self.text = text
         self.bigrams_freq = bigrams_freq
-        #times=[]
-        #times.append(time.time())
         self.annotation = annotator.getAnnotations(self.text, dep_parse=True)
-        #times.append(time.time())
         self.syntax_tree = self.annotation['syntax_tree']
-        #times.append(time.time())
         self.word_tokens = word_tokenize(self.text)
-        #times.append(time.time())
         for i in range(len(self.word_tokens)):
             if "." in self.word_tokens[i]:
                 self.word_tokens[i] = self.word_tokens[i][:-1]
 
-        #times.append(time.time())
-
-        '''
-        tracker=0
-        for tim in times:
-            if tracker>0:
-                print "count_2 "+str(tracker)+":"+str(tim-last)
-            tracker=tracker+1
-            last=tim
-        '''
+        print self.text
 
     def lexicon_count(self):
 
@@ -95,10 +82,6 @@ class TextFeatures:
                 for i in range(len(self.word_tokens)-1):
                     n_gram_score[self.word_tokens[i]+" "+self.word_tokens[i+1]] = self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1])]
 
-            '''if n == 3:
-                for i in range(len(self.word_tokens)-2):
-                    n_gram_score += self.bigrams_freq[(self.word_tokens[i], self.word_tokens[i+1], self.word_tokens[i+2])]
-            '''
             return n_gram_score
         except:
             return 0
@@ -213,6 +196,8 @@ class TextFeatures:
                     if chunk.label() not in entity_dic:
                         entity_dic[chunk.label()] = []
                     entity_dic[chunk.label()].append(' '.join(c[0] for c in chunk))
+
+        print self.text
 
         if type == 'ALL':
             count = 0
